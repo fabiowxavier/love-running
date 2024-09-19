@@ -24,7 +24,12 @@ h1 {
 
 /* Header */
 header {
-    background-color: lightcoral; /*step1*/
+    background-color: #ffffff;
+    padding: 0 1rem; 
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 8px #3a3a3a;
 }
 
 /* Main content */
