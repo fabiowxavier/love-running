@@ -26,18 +26,34 @@
             <h1 id="logo">Love Running</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label> <!--burger icon-->
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <!--burger icon-->
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content -->
-    <main>Signup</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" action="http://formdump.codeinstitute.net" method="Post">
+                <h2> <i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP</h2>
+                
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text" name="first_Name" class="text-input">
+                
+                <label for="last-name">Last Name</label>
+                <input id="last-name" type="text" name=" last_Name" class="text-input">
+                
+                <label for="email-address">Email Address</label>
+                <input id="email-address" type="text" name="email_address" class="text-input" >
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
